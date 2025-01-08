@@ -1,0 +1,23 @@
+{
+    "name": "itrvb/lab3",
+    "autoload": {
+        "psr-4": {
+            "Itrvb\\Lab4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Вокин Павел",
+            "email": "pvokin0@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23",
+        "symfony/uid": "^7.1",
+      "ext-sqlite3": "*",
+      "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}
